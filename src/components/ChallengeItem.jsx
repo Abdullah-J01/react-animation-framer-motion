@@ -10,6 +10,7 @@ export default function ChallengeItem({
 }) {
   const { updateChallengeStatus } = useContext(ChallengesContext);
 
+
   const formattedDate = new Date(challenge.deadline).toLocaleDateString(
     'en-US',
     {
